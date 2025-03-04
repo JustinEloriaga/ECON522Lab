@@ -17,7 +17,8 @@ library(urca)
 library(TSstudio)
 
 #-----Loading the Dataset
-inflation <- read_csv(file.choose())
+setwd("/Users/justineloriaga/Documents/GitHub/ECON522Lab/Week 5 Lecture and Lab")
+inflation <- read_csv("InflationRateLecture.csv")
 head(inflation)
 nrow(inflation)
 
